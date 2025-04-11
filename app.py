@@ -2,7 +2,7 @@ import streamlit as st
 from sympy import symbols, Eq, solve, simplify, diff, integrate, sympify
 from sympy.parsing.sympy_parser import parse_expr
 
-st.set_page_config(page_title="📚 SymPy Math Solver", layout="centered")
+st.set_page_config(page_title="📚 SymPy Math Solver", layout="centered")   
 st.title("🧠 SymPy: Step-by-Step Math Solver")
 
 st.markdown("""
